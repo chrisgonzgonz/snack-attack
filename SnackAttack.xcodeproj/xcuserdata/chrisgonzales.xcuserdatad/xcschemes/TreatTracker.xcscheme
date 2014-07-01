@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-               BuildableName = "SnackAttack.app"
+               BuildableName = "SnackAttack.temp_caseinsensitive_rename.app"
                BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
                ReferencedContainer = "container:SnackAttack.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BAADA81961EF5900684168"
-               BuildableName = "SnackAttackTests.xctest"
+               BuildableName = "SnackAttack.temp_caseinsensitive_renameTests.xctest"
                BlueprintName = "SnackAttack.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:SnackAttack.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "SnackAttack.app"
+            BuildableName = "SnackAttack.temp_caseinsensitive_rename.app"
             BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
             ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "SnackAttack.app"
+            BuildableName = "SnackAttack.temp_caseinsensitive_rename.app"
             BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
             ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "SnackAttack.app"
+            BuildableName = "SnackAttack.temp_caseinsensitive_rename.app"
             BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
             ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
