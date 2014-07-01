@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-               BuildableName = "TreatTracker.app"
-               BlueprintName = "TreatTracker"
-               ReferencedContainer = "container:TreatTracker.xcodeproj">
+               BuildableName = "SnackAttack.app"
+               BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:SnackAttack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BAADA81961EF5900684168"
-               BuildableName = "TreatTrackerTests.xctest"
-               BlueprintName = "TreatTrackerTests"
-               ReferencedContainer = "container:TreatTracker.xcodeproj">
+               BuildableName = "SnackAttackTests.xctest"
+               BlueprintName = "SnackAttack.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:SnackAttack.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "TreatTracker.app"
-            BlueprintName = "TreatTracker"
-            ReferencedContainer = "container:TreatTracker.xcodeproj">
+            BuildableName = "SnackAttack.app"
+            BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "TreatTracker.app"
-            BlueprintName = "TreatTracker"
-            ReferencedContainer = "container:TreatTracker.xcodeproj">
+            BuildableName = "SnackAttack.app"
+            BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BAAD9B1961EF5900684168"
-            BuildableName = "TreatTracker.app"
-            BlueprintName = "TreatTracker"
-            ReferencedContainer = "container:TreatTracker.xcodeproj">
+            BuildableName = "SnackAttack.app"
+            BlueprintName = "SnackAttack.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:SnackAttack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

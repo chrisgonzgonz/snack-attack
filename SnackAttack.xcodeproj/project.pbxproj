@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		72BAAD9C1961EF5900684168 /* TreatTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreatTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BAAD9C1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackAttack.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BAADA01961EF5900684168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72BAADA11961EF5900684168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72BAADA31961EF5900684168 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		72BAADA91961EF5900684168 /* TreatTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreatTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BAADA91961EF5900684168 /* SnackAttack.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackAttack.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BAADAE1961EF5900684168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72BAADAF1961EF5900684168 /* TreatTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatTrackerTests.swift; sourceTree = "<group>"; };
 		72BAADB91961EFBC00684168 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 		72BAAD9D1961EF5900684168 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72BAAD9C1961EF5900684168 /* TreatTracker.app */,
-				72BAADA91961EF5900684168 /* TreatTrackerTests.xctest */,
+				72BAAD9C1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename.app */,
+				72BAADA91961EF5900684168 /* SnackAttack.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72BAAD9B1961EF5900684168 /* TreatTracker */ = {
+		72BAAD9B1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72BAADB31961EF5900684168 /* Build configuration list for PBXNativeTarget "TreatTracker" */;
+			buildConfigurationList = 72BAADB31961EF5900684168 /* Build configuration list for PBXNativeTarget "SnackAttack.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				72BAAD981961EF5900684168 /* Sources */,
 				72BAAD991961EF5900684168 /* Frameworks */,
@@ -133,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = TreatTracker;
+			name = SnackAttack.temp_caseinsensitive_rename;
 			productName = TreatTracker;
-			productReference = 72BAAD9C1961EF5900684168 /* TreatTracker.app */;
+			productReference = 72BAAD9C1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72BAADA81961EF5900684168 /* TreatTrackerTests */ = {
+		72BAADA81961EF5900684168 /* SnackAttack.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72BAADB61961EF5900684168 /* Build configuration list for PBXNativeTarget "TreatTrackerTests" */;
+			buildConfigurationList = 72BAADB61961EF5900684168 /* Build configuration list for PBXNativeTarget "SnackAttack.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				72BAADA51961EF5900684168 /* Sources */,
 				72BAADA61961EF5900684168 /* Frameworks */,
@@ -151,9 +151,9 @@
 			dependencies = (
 				72BAADAB1961EF5900684168 /* PBXTargetDependency */,
 			);
-			name = TreatTrackerTests;
+			name = SnackAttack.temp_caseinsensitive_renameTests;
 			productName = TreatTrackerTests;
-			productReference = 72BAADA91961EF5900684168 /* TreatTrackerTests.xctest */;
+			productReference = 72BAADA91961EF5900684168 /* SnackAttack.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72BAAD971961EF5900684168 /* Build configuration list for PBXProject "TreatTracker" */;
+			buildConfigurationList = 72BAAD971961EF5900684168 /* Build configuration list for PBXProject "SnackAttack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72BAAD9B1961EF5900684168 /* TreatTracker */,
-				72BAADA81961EF5900684168 /* TreatTrackerTests */,
+				72BAAD9B1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename */,
+				72BAADA81961EF5900684168 /* SnackAttack.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +236,7 @@
 /* Begin PBXTargetDependency section */
 		72BAADAB1961EF5900684168 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72BAAD9B1961EF5900684168 /* TreatTracker */;
+			target = 72BAAD9B1961EF5900684168 /* SnackAttack.temp_caseinsensitive_rename */;
 			targetProxy = 72BAADAA1961EF5900684168 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -259,7 +259,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -301,7 +302,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -324,9 +326,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TreatTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnackAttack.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -335,9 +340,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TreatTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnackAttack.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
@@ -345,6 +353,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreatTracker.app/TreatTracker";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -356,7 +366,7 @@
 				INFOPLIST_FILE = TreatTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnackAttack.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -365,6 +375,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreatTracker.app/TreatTracker";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -372,7 +384,7 @@
 				INFOPLIST_FILE = TreatTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnackAttack.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -380,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72BAAD971961EF5900684168 /* Build configuration list for PBXProject "TreatTracker" */ = {
+		72BAAD971961EF5900684168 /* Build configuration list for PBXProject "SnackAttack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BAADB11961EF5900684168 /* Debug */,
@@ -389,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72BAADB31961EF5900684168 /* Build configuration list for PBXNativeTarget "TreatTracker" */ = {
+		72BAADB31961EF5900684168 /* Build configuration list for PBXNativeTarget "SnackAttack.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BAADB41961EF5900684168 /* Debug */,
@@ -397,7 +409,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		72BAADB61961EF5900684168 /* Build configuration list for PBXNativeTarget "TreatTrackerTests" */ = {
+		72BAADB61961EF5900684168 /* Build configuration list for PBXNativeTarget "SnackAttack.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BAADB71961EF5900684168 /* Debug */,

@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
     </dependencies>
     <scenes>
-        <!--Treat List Table View Controller - TreatTracker-->
+        <!--Treat List Table View Controller - SnackAttack-->
         <scene sceneID="319-G9-MVk">
             <objects>
-                <tableViewController id="2Tf-lX-6OJ" customClass="TreatListTableViewController" customModule="TreatTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="2Tf-lX-6OJ" customClass="TreatListTableViewController" customModule="SnackAttack_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MHc-6f-xMI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                             <outlet property="delegate" destination="2Tf-lX-6OJ" id="PzK-P0-2Cj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TreatTracker" id="kEJ-8K-XzS">
+                    <navigationItem key="navigationItem" title="SnackAttack" id="kEJ-8K-XzS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="rbq-aP-BDZ">
                             <connections>
                                 <action selector="addButtonTapped:" destination="2Tf-lX-6OJ" id="1Uo-9n-v54"/>
@@ -54,7 +54,7 @@
         <!--Add Treat View Controller-->
         <scene sceneID="unF-1N-VIZ">
             <objects>
-                <viewController id="niv-EI-nTP" customClass="AddTreatViewController" customModule="TreatTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="niv-EI-nTP" customClass="AddTreatViewController" customModule="SnackAttack_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mMC-DW-58q"/>
                         <viewControllerLayoutGuide type="bottom" id="t5h-Px-P5N"/>

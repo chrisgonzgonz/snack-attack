@@ -11,6 +11,7 @@ import UIKit
 class TreatListTableViewController: UITableViewController {
     let treatManager = TreatManager.sharedInstance
 
+//    initializers
     init(style: UITableViewStyle) {
         super.init(style: style)
         // Custom initialization
@@ -21,18 +22,12 @@ class TreatListTableViewController: UITableViewController {
         super.init(coder: aDecoder)
     }
 
+    
+//    overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = self.editButtonItem();
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
-    @IBAction func editButtonTapped(sender: AnyObject) {
-        tableView.setEditing(!tableView.editing, animated: true)
+        navigationItem.leftBarButtonItem = self.editButtonItem()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -45,7 +40,8 @@ class TreatListTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // #pragma mark - Table view data source
+    
+//     TABLEVIEW DATA SOURCE
 
     override func numberOfSectionsInTableView(tableView: UITableView?) -> Int {
         // #warning Potentially incomplete method implementation.
@@ -72,6 +68,8 @@ class TreatListTableViewController: UITableViewController {
         return cell
     }
 
+//      TABLEVIEW DELEGATE METHODS
+    
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView?, canEditRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
         // Return NO if you do not want the specified item to be editable.
@@ -96,24 +94,6 @@ class TreatListTableViewController: UITableViewController {
         treatManager.treatList.insert(movedTreat, atIndex: toIndexPath!.row)
     }
 
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView?, canMoveRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    // #pragma mark - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-        tableView.setEditing(false, animated: true)
-        self.setEditing(false, animated: true)
-    }
-    
     override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!)
     {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
@@ -122,4 +102,14 @@ class TreatListTableViewController: UITableViewController {
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Right)
     }
 
+    
+// #pragma mark - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
+        // Get the new view controller using [segue destinationViewController].
+        // Pass the selected object to the new view controller.
+        tableView.setEditing(false, animated: true)
+        self.setEditing(false, animated: true)
+    }
 }

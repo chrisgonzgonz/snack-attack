@@ -33,8 +33,8 @@ class AddTreatViewController: UIViewController {
     }
     
     @IBAction func addTreatButtonTapped(sender: AnyObject) {
-        var newTreat = Treat(name: treatNameField.text)
-        TreatManager.sharedInstance.addTreat(newTreat: newTreat)
+        var treat = Treat(name: treatNameField.text)
+        TreatManager.sharedInstance.addTreat(newTreat: treat)
         self.dismissModalViewControllerAnimated(true)
     }
 
