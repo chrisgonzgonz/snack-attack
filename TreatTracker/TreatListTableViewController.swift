@@ -11,23 +11,12 @@ import UIKit
 class TreatListTableViewController: UITableViewController {
     let treatManager = TreatManager.sharedInstance
 
-//    initializers
-    init(style: UITableViewStyle) {
-        super.init(style: style)
-        // Custom initialization
-    }
-    
-    init(coder aDecoder: NSCoder!)
-    {
-        super.init(coder: aDecoder)
-    }
-
     
 //    overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = self.editButtonItem()
+        self.navigationItem.leftBarButtonItem = self.editButtonItem()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -62,7 +51,7 @@ class TreatListTableViewController: UITableViewController {
         let currentTreat = treatManager.treatList[indexPath!.row]
         cell.textLabel.text = currentTreat.name
         cell.detailTextLabel.text = String(currentTreat.count)
-        cell.contentView.backgroundColor = currentTreat.color!
+        cell.contentView.backgroundColor = currentTreat.color
         cell.textLabel.backgroundColor = UIColor.clearColor()
         cell.detailTextLabel.backgroundColor = UIColor.clearColor()
         return cell

@@ -60,6 +60,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723AD6441964A4A500F35732 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72BAADBD1961F0B500684168 /* Treat.swift */,
+				72BAADBF1961F49000684168 /* TreatManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		723AD6451964A4B200F35732 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72BAADC11961FBA200684168 /* AddTreatViewController.swift */,
+				72BAADBB1961F04700684168 /* TreatListTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		723AD6461964A4BA00F35732 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72BAADB91961EFBC00684168 /* Storyboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		72BAAD931961EF5900684168 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				72BAADA11961EF5900684168 /* AppDelegate.swift */,
-				72BAADB91961EFBC00684168 /* Storyboard.storyboard */,
-				72BAADC11961FBA200684168 /* AddTreatViewController.swift */,
-				72BAADBB1961F04700684168 /* TreatListTableViewController.swift */,
-				72BAADBD1961F0B500684168 /* Treat.swift */,
-				72BAADBF1961F49000684168 /* TreatManager.swift */,
+				723AD6461964A4BA00F35732 /* Views */,
+				723AD6451964A4B200F35732 /* Controllers */,
+				723AD6441964A4A500F35732 /* Models */,
 				72BAADA31961EF5900684168 /* Images.xcassets */,
 				72BAAD9F1961EF5900684168 /* Supporting Files */,
 			);
@@ -408,6 +432,7 @@
 				72BAADB51961EF5900684168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72BAADB61961EF5900684168 /* Build configuration list for PBXNativeTarget "SnackAttack.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +441,7 @@
 				72BAADB81961EF5900684168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

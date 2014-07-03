@@ -9,8 +9,10 @@
 import UIKit
 
 class TreatManager: NSObject {
+//    instance variable
     var treatList = Treat[]()
     
+//    singleton
     class var sharedInstance : TreatManager {
     struct Static {
         static let instance : TreatManager = TreatManager()
@@ -18,6 +20,7 @@ class TreatManager: NSObject {
         return Static.instance
     }
     
+//    helper methods
     func addTreat(#newTreat: Treat) {
         treatList += newTreat
     }
